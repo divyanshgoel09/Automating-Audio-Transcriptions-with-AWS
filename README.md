@@ -18,13 +18,13 @@ Created Two S3 Buckets
 Create two LAMBDA Function
 ![image](https://github.com/user-attachments/assets/0b8d2a2f-b9c5-4116-80ba-46d20e324680)
 Use the python code provided in python code files.
-
+(s3-transcribe-function.py AND s3-transcribe-notification-function.py)
 
 It triggers **s3-transcribe-function** Lambda function 
 ![image](https://github.com/user-attachments/assets/56e45feb-5632-434b-b4e6-1802275bc036)
 We give certain Permissions to our Lambda Function by attaching certain policies to it.
 
-Uploaded audio file in Input Bucket
+Uploaded audio file in Input Bucket (Subconscious_Learning.mp3 AND Top_5_English_Learning_Mistakes.mp3)
 ![image](https://github.com/user-attachments/assets/4aff7d18-6921-449e-8997-94b2e9a5e2be)
 
 Lambda Function starts our Transcribe Job
@@ -38,3 +38,5 @@ Now our **s3-transcribe-notification-function** gets triggered
 Now the user receives notification about Transcription job completion
 ![image](https://github.com/user-attachments/assets/e40562ba-8b4d-4d44-a317-e329d7fcd8d3)
 
+Output Json File (Top_5_English_Learning_Mistakes.mp3-TextFile-)
+![image](https://github.com/user-attachments/assets/9ecd2058-5734-421f-b28e-8d37defaa592)
